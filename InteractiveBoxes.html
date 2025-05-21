@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css" />
+  <title>InteractiveBoxes</title>
+ </head>
+ <body>
+ <div class="appBody">
+  <div class="appContent">
+	
+    <header class="greenColor">
+		<hr width="30%" size="2">
+		<b>YAY! It's BOGO </b>
+		<hr width="30%" size="2">
+	</header>
+    <div class="panel" >
+	<button>
+       <div class="panel-header">
+          <div class="headerdivision">
+            <input type="radio" name="pairs" value="1" checked id="unitOption" > 
+            <div class="headeroption">
+              <div style="display: flex;"> 
+				<p><b>1 Unit </b></p>
+			  <p class="offerPer">10% off</p>
+			  </div>
+              <p>Standard Price </p>
+            </div>
+            <div class="headeroffer">
+                <p>$10.00 USD</p>
+				<p><s>$24.00 USD</s></p>
+            </div>
+              
+          </div>
+        </div>
+		</button>
+        <div class="panel-content active" id="panel-content">
+         <table>
+            <thead>
+              <tr>
+                <th> </th>
+                <th class="smallfont">Size</th>
+                <th class="smallfont">color</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="smallfont">#1</td>
+                <td>
+                  <select>
+                    <option value="s" >S</option>
+					<option value="m" >M</option>
+					<option value="l" >L</option>
+                  </select>
+                </td>
+                <td>
+                  <select id = "selectedcolor">
+                      <option value="color">color</option>
+					  <option value="Red">Red</option>
+					  <option value="Blue">Blue</option>
+					  <option value="Yellow">Yellow</option>
+                  </select></td>
+              </tr>
+              <tr>
+                <td class="smallfont">#2</td>
+                <td>
+                  <select>
+                    <option  value="s" >S</option>
+					<option value="m" >M</option>
+					<option value="l" >L</option>
+                  </select>
+                </td>
+                <td>
+                  <select id = "selectedcolor">
+                      <option value="color">color</option>
+					  <option value="Red">Red</option>
+					  <option value="Blue">Blue</option>
+					  <option value="Yellow">Yellow</option>
+                  </select></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    </div>
+    <div class="panel">
+	<button >
+		<div class="popular"> 
+			<p class="topleftalign">  </p>
+			<p class="toprightalign">MOST POPULAR</p>
+	   </div>
+       <div class="panel-header" >
+	   
+	   
+          <div class="headerdivision">
+            <input type="radio" name="pairs" value="2"  > 
+            <div class="headeroption">
+			<div style="display: flex;">
+              <p><b>2 Unit</b></p>
+			  <p class="offerPer">20% off</p>
+			  </div>
+             
+
+            </div>
+           <div class="headeroffer">
+                <p>$18.00 USD</p>
+				<p><s>$24.00 USD</s></p>
+            </div>
+              
+          </div>
+
+        </div>
+		</button>
+        <div class="panel-content" id="panel-content">
+         <table>
+            <thead>
+              <tr>
+                <th> </th>
+                <th class="smallfont">Size</th>
+                <th class="smallfont">color</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="smallfont">#1</td>
+                <td>
+                  <select>
+                    <option value="s" >S</option>
+					<option value="m" >M</option>
+					<option value="l" >L</option>
+                  </select>
+                </td>
+                <td>
+                  <select>
+                      <option value="color">color</option>
+					  <option value="Red">Red</option>
+					  <option value="Blue">Blue</option>
+					  <option value="Yellow">Yellow</option>
+                  </select></td>
+              </tr>
+              <tr>
+                <td class="smallfont">#2</td>
+                <td>
+                  <select id = "selectedSize">
+                    <option  value="s">S</option>
+					<option value="m" >M</option>
+					<option value="l" >L</option>
+                  </select>
+                </td>
+                <td>
+                  <select id = "selectedcolor">
+                      <option value="color">color</option>
+					  <option value="Red">Red</option>
+					  <option value="Blue">Blue</option>
+					  <option value="Yellow">Yellow</option>
+                  </select></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    </div>
+    <div class="panel">
+	<button >
+       <div class="panel-header">
+
+          <div class="headerdivision">
+            <input type="radio" name="pairs" value="3" > 
+            <div class="headeroption">
+			<div style="display: flex;">
+              <p><b>3 Unit</b></p>
+			  <p class="offerPer">30% off</p>
+			  </div>
+             
+
+            </div>
+           <div class="headeroffer">
+                <p>$24.00 USD</p>
+				<p><s>$24.00 USD</s></p>
+            </div>
+              
+          </div>
+
+        </div>
+        </button>
+		<div class="panel-content" id="panel-content">
+         <table>
+            <thead>
+              <tr>
+                <th> </th>
+                <th class="smallfont">Size</th>
+                <th class="smallfont">color</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="smallfont">#1</td>
+                <td>
+                  <select id = "selectedSize">
+                    <option value="" >S</option>
+					<option value="" >M</option>
+					<option value="" >L</option>
+                  </select>
+                </td>
+                <td>
+                  <select id = "selectedcolor">
+                      <option value="color">color</option>
+					  <option value="Red">Red</option>
+					  <option value="Blue">Blue</option>
+					  <option value="Yellow">Yellow</option>
+                  </select></td>
+              </tr>
+              <tr>
+                <td class="smallfont">#2</td>
+                <td>
+                  <select id = "selectedSize">
+                    <option  value ="s">S</option>
+					<option value="m" >M</option>
+					<option value="l" >L</option>
+                  </select>
+                </td>
+                <td>
+                  <select id = "selectedcolor">
+                      <option value="color">color</option>
+					  <option value="Red">Red</option>
+					  <option value="Blue">Blue</option>
+					  <option value="Yellow">Yellow</option>
+                  </select></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+    </div>
+	<div class="appFooter">
+		<div class="totaldiv">
+			<p class="greenColor shipping">Free Delivery</p>
+			<p class="total">Total: <b>$18.00 USD</b></p>
+		</div>
+		<button class="addButton"> + Add to Cart</button>
+	</div>
+</div> 
+
+<script src="script.js"></script>
+</body>
