@@ -1,39 +1,19 @@
-.appBody{
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    box-sizing: border-box;
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
+.appBody {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  box-sizing: border-box;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
-.appContent{
-    width: 400px;
-    height: 400px;
+
+.appContent {
+  width: 400px;
+  height: 400px;
 }
-.totaldiv{
-	display:flex;
-	width: 100%;
-    height: 80%;
-}
-.total{
-	width: 50%;
-    text-align: end;
-	margin-right:10px;
-}
-input{
-	margin-right:15px;
-	accent-color: #e67387;
-}
-.shipping{
-	width:50%;
-}
-.appFooter{
-    width: 400px;
-    height: 40px;	
-	
-}
-.panel{
+
+.panel {
   border-style: solid;
   border-radius: 7px;
   border: 1px solid #b3a7a7;
@@ -41,74 +21,116 @@ input{
   display: block;
 }
 
-header{
-  text-align: center;
-  margin: 10px;
+.panel-header {
+  padding: 10px;
   display: flex;
+  justify-content: space-between;
 }
-.headerdivision{
+
+.headerdivision {
   display: flex;
   width: 100%;
   height: 30px;
 }
-.headeroption{
-  width: 66%; 
+
+.headeroption {
+  width: 66%;
   margin-top: 7px;
   height: 100%;
   text-align: start;
 }
-.headeroffer{
-  width: 20%; 
+
+.offerPer {
+  background-color: #e67387;
+  color: white;
+  border-radius: 2px;
+  width: 60px;
+  text-align: center;
+}
+
+.headeroffer {
+  width: 20%;
   height: 100%;
   margin-top: 0;
 }
 
-.offervalue{
-  display: flex
-}
-s{
-  font-size: x-small;
-}
-select{
-  width: 70px;
-}
-
-.smallfont{
-  font-size: small;
-}
-p{
-  margin: 0;
-	width: 90px;
-}
-option{
-  height: fit-content;
-}
-
-.panel-header {;	
-  padding: 10px;
-  cursor: pointer;
-  display: flex;
-  justify-content: space-between;
-}
 .panel-content {
   padding: 10px;
   display: none;
 }
 
 .active.panel-content {
-    display: block;
-	
+  display: block;
+
 }
+
 .panel-header::after {
   font-size: 20px;
 }
 
-
 .panel-content.active {
-    display: block;
+  display: block;
 }
-  
-button{
+
+.smallfont {
+  font-size: small;
+}
+
+.appFooter {
+  width: 400px;
+  height: 40px;
+
+}
+
+.totaldiv {
+  display: flex;
+  width: 100%;
+  height: 80%;
+}
+
+.shipping {
+  width: 50%;
+}
+
+.total {
+  width: 50%;
+  text-align: end;
+  margin-right: 10px;
+}
+
+input {
+  margin-right: 15px;
+  accent-color: #e67387;
+}
+
+header {
+  text-align: center;
+  margin: 10px;
+  display: flex;
+}
+
+.offervalue {
+  display: flex
+}
+
+s {
+  font-size: x-small;
+}
+
+select {
+  width: 70px;
+}
+
+p {
+  margin: 0;
+  width: 90px;
+}
+
+option {
+  height: fit-content;
+}
+
+button {
   background-color: white;
   border: white;
   border-radius: 7px;
@@ -116,32 +138,38 @@ button{
   width: 100%;
   padding: 0;
 }
-.greenColor{
-	color:#e67387;
-}
-.addButton{
-	color: white;
-    background-color: #e67387;
-}
-.offerPer{
-	background-color: #e67387;
-	color: white;
-	    border-radius: 2px;
-		width:60px;
-		text-align:center;
+
+.pinkColor {
+  color: #e67387;
 }
 
-.popular{
-	width:100%;
-	height:100%;
-	text-align:center;
-	display:flex;
+.addButton {
+  color: white;
+  background-color: #e67387;
 }
-.topleftalign{
-width:75%;	
+
+.popular {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
 }
-.toprightalign{
-	background-color: #e67387;
-	color: white;
-width:35%;	
+
+.topleftalign {
+  width: 75%;
+}
+
+.toprightalign {
+  background-color: #e67387;
+  color: white;
+  width: 35%;
+}
+
+@media only screen and (min-width: 600px) {
+
+  .appBody {
+    width: 80%;
+    height: 80%;
+  }
+
 }
